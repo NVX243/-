@@ -1,0 +1,203 @@
+
+/* Cтили к body */
+body {
+    margin: 0;
+    background-image: url(Фон4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-image: no-repeat;
+    color: rgb(27, 29, 160);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+
+/* Стили к шапке */
+header img {
+    width:80px ;
+    margin-left: 50px;
+}
+header {
+    background-color: rgb(100, 149, 237, 0.9);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+
+}
+header nav {
+    margin-right: 50px;
+    display: flex;
+    gap: 30px;
+}
+header nav a {
+    color: #0e18a4;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+/* Настройки всех секций */
+section {
+    background-color: rgb(66, 122, 175, 0.9);
+    max-width: 1200px;
+    margin-left: 40px auto;
+    border-style: solid;
+    border-color: rgb(35, 75, 221);
+    border-width: 2px;
+    border-radius: 25px;
+    margin-top: 25px;
+    margin-left: 350px;
+    padding: 40px;
+}
+.construation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.img-construation {
+width: 35%;
+}
+.img-construation {
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 25px;
+border-radius: 25px;
+}
+.text-construation {
+background-color: rgb(48, 133, 194);
+padding: 25px;
+border-radius: 30px;
+border-color: #131a85;
+}
+.text-construation {
+ font-size: 25px;
+ font-weight: 700;
+
+}
+.text-construation h1 {
+color: rgb(50, 69, 194);
+border-color: #0e18a4;
+
+}
+
+/* 2 секция make */
+.make {
+    text-align: center;
+}
+h2 {
+    font-size: 35px;
+    text-align: center;
+    color: #1d339e;
+
+}
+.make > p {
+    font-size: 20px;
+    max-width: 750px;
+    margin: 0 auto 25px;
+
+}
+.make ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.make {
+    text-align: center;
+}
+
+.make li {
+    display: block;
+    background-color: rgb(48, 133, 194);
+    width: 300px;
+    padding: 20px;
+    border-style: solid;
+    border-color: #1d339e;
+    border-width: 1px;
+    border-radius: 25px;
+
+}
+.make li:hover {
+    background-color: rgb(5, 97, 189, 0.8);
+    transition: 0.6s;
+}
+/* Секция facts */
+.facts {
+    text-align: center;
+}
+h2 {
+    font-size: 35px;
+    text-align: center;
+
+}
+.facts > p {
+    font-size: 20px;
+    max-width: 750px;
+    margin: 0 auto 25px;
+
+}
+.facts ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.facts {
+    text-align: center;
+}
+.facts li {
+    display: block;
+    background-color: rgb(48, 133, 194);
+    width: 300px;
+    padding: 20px;
+    border-style: solid;
+    border-color: #1d339e;
+    border-radius: 25px;
+    border-width: 1px;
+
+}
+.facts li:hover {
+    background-color: rgb(5, 97, 189, 0.8);
+    transition: 0.6s;
+}
+.facts img {
+    border-radius: 25px;
+}
+/* 4 секция */
+.balance {
+    text-align:left;
+    justify-content: space-between;
+    display: flex;
+    gap: 35px;
+    font-size: 25px;
+}
+.balance img {
+    border-radius: 30px;
+    width: 35%;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 350px;
+    margin: 0 auto;
+
+}
+.balance p {
+    width: 75%;
+}
+footer {
+    background-color: rgb(100, 149, 237, 0.9);
+    height: 95px;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+footer p {
+    font-size: 25px;
+    
+}
+
+
+
